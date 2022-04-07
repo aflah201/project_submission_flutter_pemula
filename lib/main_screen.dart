@@ -79,33 +79,35 @@ class MainScreen extends StatelessWidget {
                               height: 75,
                             ),
                           ),
-                          Padding(
-                            padding: const EdgeInsets.all(10.0),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisSize: MainAxisSize.min,
-                              children: <Widget>[
-                                Text(
-                                  kelas.name,
-                                  style: TextStyle(
-                                    fontSize: 16.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Color.fromARGB(255, 3, 41, 70),
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisSize: MainAxisSize.min,
+                                children: <Widget>[
+                                  Text(
+                                    kelas.fullName,
+                                    style: TextStyle(
+                                      fontSize: 16.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Color.fromARGB(255, 3, 41, 70),
+                                    ),
                                   ),
-                                ),
-                                SizedBox(
-                                  height: 5,
-                                ),
-                                Text(
-                                  kelas.jumlahKelas,
-                                  style: TextStyle(
-                                    fontSize: 14.0,
-                                    color: Color.fromARGB(255, 3, 41, 70),
+                                  SizedBox(
+                                    height: 5,
                                   ),
-                                ),
-                              ],
+                                  Text(
+                                    kelas.jumlahKelas,
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      color: Color.fromARGB(255, 3, 41, 70),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),
