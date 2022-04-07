@@ -1,4 +1,4 @@
-import 'package:dicoding_learning_path/default_screen.dart';
+import 'package:dicoding_learning_path/detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:dicoding_learning_path/model/learning_path.dart';
 
@@ -64,7 +64,7 @@ class MainScreen extends StatelessWidget {
                     onTap: () {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return DefaultScreen();
+                        return DetailScreen(kelas: kelas);
                       }));
                     },
                     child: Card(
