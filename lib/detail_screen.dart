@@ -31,7 +31,7 @@ class DetailScreen extends StatelessWidget {
               Container(
                 margin: EdgeInsets.fromLTRB(10, 16, 10, 5),
                 child: Text(
-                  kelas.name,
+                  kelas.shortName,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Color.fromARGB(255, 3, 41, 70),
