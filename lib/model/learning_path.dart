@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class LearningPath {
   String fullName;
   String shortName;
