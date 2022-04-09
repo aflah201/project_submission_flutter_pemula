@@ -10,7 +10,7 @@ class MainScreen extends StatelessWidget {
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
-            Icons.home,
+            Icons.menu,
           ),
           onPressed: () {},
         ),
