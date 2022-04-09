@@ -35,12 +35,12 @@ var LearningPathList = [
     imageAsset: 'images/android_developer.png',
     jumlahKelas: '6 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/memulai_pemrograman_dengan_kotlin_logo_230421132137.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_membuat_aplikasi_android_untuk_pemula_logo_230421132330.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_fundamental_aplikasi_android_logo_230421132359.jpg',
-      'https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/academy/dos:belajar_pengembangan_aplikasi_android_intermediate_logo_140222092310.png',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_prinsip_pemrograman_solid_logo_230421132206.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_android_developer_expert_logo_230421132521.jpg',
+      'images/andro1.jpg',
+      'images/andro2.jpg',
+      'images/andro3.jpg',
+      'images/andro4.jpg',
+      'images/andro5.jpg',
+      'images/andro6.jpg',
     ],
     nameClass: [
       'Memulai Pemrograman Dengan Kotlin',
@@ -91,8 +91,8 @@ var LearningPathList = [
     imageAsset: 'images/azure_cloud_developer.png',
     jumlahKelas: '2 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_dasar_dasar_azure_cloud_logo_230421131807.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_azure_cloud_developer_logo_230421131851.jpg',
+      'images/azure1.jpg',
+      'images/azure2.jpg',
     ],
     nameClass: [
       'Belajar Dasar-Dasar Azure Cloud',
@@ -123,12 +123,12 @@ var LearningPathList = [
     imageAsset: 'images/back_end_developer.png',
     jumlahKelas: '6 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/cloud_practitioner_essentials_belajar_dasar_aws_cloud_logo_230421133823.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_dasar_pemrograman_javascript_logo_230421133231.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_membuat_aplikasi_back_end_untuk_pemula_logo_230421133303.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/architecting_on_aws_membangun_arsitektur_cloud_di_aws_logo_230421133324.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_fundamental_aplikasi_back_end_logo_230421133405.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_back_end_developer_expert_logo_230421133615.jpg',
+      'images/back1.jpg',
+      'images/back2.jpg',
+      'images/back3.jpg',
+      'images/back4.jpg',
+      'images/back5.jpg',
+      'images/back6.jpg',
     ],
     nameClass: [
       'Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)',
@@ -179,10 +179,10 @@ var LearningPathList = [
     imageAsset: 'images/front_end_web_developer.png',
     jumlahKelas: '4 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_dasar_pemrograman_web_logo_230421141544.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_front_end_web_pemula_logo_270421095055.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_fundamental_front_end_web_development_logo_230421131631.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_front_end_web_developer_expert_logo_230421131923.jpg',
+      'images/front1.jpg',
+      'images/front2.jpg',
+      'images/front3.jpg',
+      'images/front4.jpg',
     ],
     nameClass: [
       'Belajar Dasar Pemrograman Web',
@@ -223,11 +223,11 @@ var LearningPathList = [
     imageAsset: 'images/google_cloud_developer.png',
     jumlahKelas: '5 Kelas',
     imageUrl: [
-      'https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/academy/dos:belajar_dasar_google_cloud_logo_051021140209.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_dasar_pemrograman_javascript_logo_230421133231.jpg',
-      'https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/academy/dos:belajar_membuat_aplikasi_back_end_untuk_pemula_dengan_google_cloud_logo_261021104141.png',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_google_cloud_engineer_logo_230421133614.jpg',
-      'https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/original/academy/dos:menjadi_google_cloud_architect_logo_291121134700.png',
+      'images/google1.jpg',
+      'images/google2.jpg',
+      'images/google3.jpg',
+      'images/google4.jpg',
+      'images/google5.jpg',
     ],
     nameClass: [
       'Belajar Dasar Google Cloud',
@@ -253,7 +253,8 @@ var LearningPathList = [
     ratingClass: [
       '4.90',
       '4.83',
-      '4.84' '4.94',
+      '4.84',
+      '4.94',
       '5.00',
     ],
     descriptionClass: [
@@ -272,11 +273,11 @@ var LearningPathList = [
     imageAsset: 'images/ios_developer.png',
     jumlahKelas: '5 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/memulai_pemrograman_dengan_swift_logo_230421132022.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_membuat_aplikasi_ios_untuk_pemula_logo_230421144231.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_fundamental_aplikasi_ios_logo_230421144334.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_prinsip_pemrograman_solid_logo_230421132206.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_ios_developer_expert_logo_230421132134.jpg',
+      'images/ios1.jpg',
+      'images/ios2.jpg',
+      'images/ios3.jpg',
+      'images/ios4.jpg',
+      'images/ios5.jpg',
     ],
     nameClass: [
       'Memulai Pemrograman Dengan Swift',
@@ -322,11 +323,11 @@ var LearningPathList = [
     imageAsset: 'images/machine_learning_developer.png',
     jumlahKelas: '5 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_dasar_visualisasi_data_logo_230421131758.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/memulai_pemrograman_dengan_python_logo_230421132353.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_machine_learning_untuk_pemula_logo_230421141649.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_pengembangan_machine_learning_logo_230421141730.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/machine_learning_terapan_logo_290421140248.jpg',
+      'images/ml1.jpg',
+      'images/ml2.jpg',
+      'images/ml3.jpg',
+      'images/ml4.jpg',
+      'images/ml5.jpg',
     ],
     nameClass: [
       'Belajar Dasar Visualisasi Data',
@@ -372,11 +373,11 @@ var LearningPathList = [
     imageAsset: 'images/multi_platform_app_developer.png',
     jumlahKelas: '5 Kelas',
     imageUrl: [
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/memulai_pemrograman_dengan_dart_logo_230421132631.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_membuat_aplikasi_flutter_untuk_pemula_logo_230421132656.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_fundamental_aplikasi_flutter_logo_230421132717.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/belajar_prinsip_pemrograman_solid_logo_230421132206.jpg',
-      'https://d17ivq9b7rppb3.cloudfront.net/original/academy/menjadi_flutter_developer_expert_logo_290421175717.jpg'
+      'images/multi1.jpg',
+      'images/multi2.jpg',
+      'images/multi3.jpg',
+      'images/multi4.jpg',
+      'images/multi5.jpg',
     ],
     nameClass: [
       'Memulai Pemrograman Dengan Dart',

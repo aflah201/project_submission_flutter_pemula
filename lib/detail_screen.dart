@@ -51,6 +51,62 @@ class DetailScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              ListView.builder(
+                physics: const NeverScrollableScrollPhysics(),
+                shrinkWrap: true,
+                // itemCount: kelas.imageUrl.length,
+                itemBuilder: (context, index) {
+                  // final LearningPath kelas = LearningPathList[index];
+                  return InkWell(
+                    onTap: () {},
+                    child: Card(
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          Container(
+                            margin: EdgeInsets.all(10.0),
+                            child: Image.asset(
+                              kelas.imageUrl[index],
+                              width: 75,
+                              height: 75,
+                            ),
+                          ),
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.all(10.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisSize: MainAxisSize.min,
+                                children: <Widget>[
+                                  Text(
+                                    kelas.nameClass[index],
+                                    style: TextStyle(
+                                      fontSize: 16.0,
+                                      fontWeight: FontWeight.bold,
+                                      color: Color.fromARGB(255, 3, 41, 70),
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 5,
+                                  ),
+                                  Text(
+                                    kelas.levelClass[index],
+                                    style: TextStyle(
+                                      fontSize: 14.0,
+                                      color: Color.fromARGB(255, 3, 41, 70),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+                itemCount: kelas.imageUrl.length,
+              ),
             ],
           ),
         ),
