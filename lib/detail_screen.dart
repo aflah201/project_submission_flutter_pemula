@@ -22,6 +22,7 @@ class DetailScreen extends StatelessWidget {
           'My Dicoding',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
+        actions: [FavoriteButton()],
       ),
       body: SingleChildScrollView(
         child: SafeArea(
@@ -96,6 +97,16 @@ class DetailScreen extends StatelessWidget {
                                       color: Color.fromARGB(255, 3, 41, 70),
                                     ),
                                   ),
+                                  SizedBox(
+                                    height: 5,
+                                  ),
+                                  Text(
+                                    kelas.descriptionClass[index],
+                                    style: TextStyle(
+                                      fontSize: 12.0,
+                                      color: Color.fromARGB(255, 3, 41, 70),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
@@ -111,6 +122,30 @@ class DetailScreen extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class FavoriteButton extends StatefulWidget {
+  @override
+  _FavoriteButtonState createState() => _FavoriteButtonState();
+}
+
+class _FavoriteButtonState extends State<FavoriteButton> {
+  bool isFavorite = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      icon: Icon(
+        isFavorite ? Icons.bookmark : Icons.bookmark_border,
+        color: Colors.white,
+      ),
+      onPressed: () {
+        setState(() {
+          isFavorite = !isFavorite;
+        });
+      },
     );
   }
 }
