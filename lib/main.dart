@@ -1,7 +1,5 @@
-import 'package:dicoding_learning_path/default_screen.dart';
-import 'package:dicoding_learning_path/main_screen.dart';
+import 'package:dicoding_learning_path/splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:dicoding_learning_path/main_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,8 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Quicksand',
       ),
-      // home: DefaultScreen(),
-      home: MainScreen(),
+      home: SplashScreenPage(),
     );
   }
 }
