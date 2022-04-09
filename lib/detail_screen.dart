@@ -1,4 +1,3 @@
-import 'package:dicoding_learning_path/default_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:dicoding_learning_path/model/learning_path.dart';
 
@@ -19,7 +18,7 @@ class DetailScreen extends StatelessWidget {
           },
         ),
         title: Text(
-          'My Dicoding',
+          'Learning Path',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         actions: [FavoriteButton()],
@@ -81,6 +80,7 @@ class DetailScreen extends StatelessWidget {
                                 children: <Widget>[
                                   Text(
                                     kelas.nameClass[index],
+                                    overflow: TextOverflow.ellipsis,
                                     style: TextStyle(
                                       fontSize: 16.0,
                                       fontWeight: FontWeight.bold,
