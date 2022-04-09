@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dicoding_learning_path">
    <application
-        android:label="dicoding_learning_path"
+        android:label="My Dicoding"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
